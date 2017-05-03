@@ -22,7 +22,7 @@ struct NavigationItemRow: ImmuTableRow {
         cell.accessoryType = accessoryType
         cell.imageView?.image = icon
 
-        WPStyleGuide.configureTableViewCell(cell)
+        WPStyleGuide.configureDefaultTableViewCell(cell)
     }
 }
 
@@ -51,7 +51,7 @@ struct BadgeNavigationItemRow: ImmuTableRow {
         cell.imageView?.image = icon
         cell.badgeCount = badgeCount
 
-        WPStyleGuide.configureTableViewCell(cell)
+        WPStyleGuide.configureDefaultTableViewCell(cell)
     }
 }
 
@@ -67,7 +67,7 @@ struct EditableTextRow: ImmuTableRow {
         cell.detailTextLabel?.text = value
         cell.accessoryType = .disclosureIndicator
 
-        WPStyleGuide.configureTableViewCell(cell)
+        WPStyleGuide.configureDefaultTableViewCell(cell)
     }
 }
 
@@ -83,7 +83,7 @@ struct TextRow: ImmuTableRow {
         cell.detailTextLabel?.text = value
         cell.selectionStyle = .none
 
-        WPStyleGuide.configureTableViewCell(cell)
+        WPStyleGuide.configureDefaultTableViewCell(cell)
     }
 }
 
@@ -96,7 +96,7 @@ struct LinkRow: ImmuTableRow {
     func configureCell(_ cell: UITableViewCell) {
         cell.textLabel?.text = title
 
-        WPStyleGuide.configureTableViewActionCell(cell)
+        WPStyleGuide.configureDefaultTableViewActionCell(cell)
     }
 }
 
@@ -111,7 +111,7 @@ struct LinkWithValueRow: ImmuTableRow {
         cell.textLabel?.text = title
         cell.detailTextLabel?.text = value
 
-        WPStyleGuide.configureTableViewActionCell(cell)
+        WPStyleGuide.configureDefaultTableViewActionCell(cell)
     }
 }
 
@@ -126,7 +126,7 @@ struct ButtonRow: ImmuTableRow {
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.lineBreakMode = .byWordWrapping
 
-        WPStyleGuide.configureTableViewActionCell(cell)
+        WPStyleGuide.configureDefaultTableViewActionCell(cell)
         cell.textLabel?.textAlignment = .center
     }
 }
@@ -143,7 +143,7 @@ struct DestructiveButtonRow: ImmuTableRow {
         cell.accessibilityIdentifier = accessibilityIdentifier
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.lineBreakMode = .byWordWrapping
-        WPStyleGuide.configureTableViewDestructiveActionCell(cell)
+        WPStyleGuide.configureDefaultTableViewDestructiveActionCell(cell)
     }
 }
 

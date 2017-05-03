@@ -71,7 +71,7 @@ open class SwitchTableViewCell: WPTableViewCell {
         flipSwitch.addTarget(self, action: #selector(SwitchTableViewCell.switchDidChange(_:)), for: .valueChanged)
         accessoryView = flipSwitch
 
-        WPStyleGuide.configureTableViewCell(self)
+        WPStyleGuide.configureDefaultTableViewCell(self)
     }
 
 
