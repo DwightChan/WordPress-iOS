@@ -363,6 +363,7 @@
 		822876F11E929CFD00696BF7 /* ReachabilityUtils+OnlineActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822876F01E929CFD00696BF7 /* ReachabilityUtils+OnlineActions.swift */; };
 		82301B8F1E787420009C9C4E /* AppRatingUtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82301B8E1E787420009C9C4E /* AppRatingUtilityTests.swift */; };
 		8261B4CC1EA8E13700668298 /* SVProgressHUD+Dismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 8261B4CA1EA8E13700668298 /* SVProgressHUD+Dismiss.m */; };
+		82C00C191EB9D18D003BDE4A /* WPStyleGuide+DynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C00C181EB9D18D003BDE4A /* WPStyleGuide+DynamicType.swift */; };
 		83043E55126FA31400EC9953 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83043E54126FA31400EC9953 /* MessageUI.framework */; };
 		83418AAA11C9FA6E00ACF00C /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 83418AA911C9FA6E00ACF00C /* Comment.m */; };
 		834CAE7C122D528A003DDF49 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 834CAE7B122D528A003DDF49 /* UIImage+Resize.m */; };
@@ -1646,6 +1647,7 @@
 		8261B4CA1EA8E13700668298 /* SVProgressHUD+Dismiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+Dismiss.m"; sourceTree = "<group>"; };
 		8261B4CB1EA8E13700668298 /* SVProgressHUD+Dismiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+Dismiss.h"; sourceTree = "<group>"; };
 		827482C81E966E32001A2B62 /* WordPress 58.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WordPress 58.xcdatamodel"; sourceTree = "<group>"; };
+		82C00C181EB9D18D003BDE4A /* WPStyleGuide+DynamicType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "WPStyleGuide+DynamicType.swift"; path = "../Utility/WPStyleGuide+DynamicType.swift"; sourceTree = "<group>"; };
 		82FA39771EB132090058A2D0 /* WordPress 59.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "WordPress 59.xcdatamodel"; sourceTree = "<group>"; };
 		83043E54126FA31400EC9953 /* MessageUI.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		833AF259114575A50016DE8F /* PostAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostAnnotation.h; sourceTree = "<group>"; };
@@ -4366,15 +4368,13 @@
 				E1703A5B1C28006B00C57FA0 /* UITableViewController+Helpers.swift */,
 				E647DD041CA71C2B002E54B5 /* UITextField+TextHelper.swift */,
 				B587797319B799D800E57C5A /* UIView+Animations.swift */,
-				B587797719B799D800E57C5A /* UIView+Helpers.swift */,
 				B580E4781AEA91000091A094 /* UIViewController+Helpers.swift */,
 				17EC9FC51DDC761D00D5BE8E /* UIWindow+Helpers.swift */,
+				B587797719B799D800E57C5A /* UIView+Helpers.swift */,
 				0845B8C51E833C56001BA771 /* URL+IncrementalFilename.swift */,
 				E1C9AA501C10419200732665 /* Math.swift */,
 				E131F5341C2930FC00D2D975 /* String+Helpers.swift */,
 				E177807F1C97FA9500FA7E14 /* StoreKit+Debug.swift */,
-				E678FC141C76241000F55F55 /* WPStyleGuide+ApplicationStyles.swift */,
-				17AD36D41D36C1A60044B10D /* WPStyleGuide+Search.swift */,
 				E14B74101C7B16FD00C26E21 /* WPNoResultsView+Model.swift */,
 				1751E5921CE23801000CA08D /* NSAttributedString+StyledHTML.swift */,
 				FF8A04DF1D9BFE7400523BC4 /* FLAnimatedImageView+Cache.swift */,
@@ -4382,6 +4382,9 @@
 				FF0148E41DFABBC9001AD265 /* NSFileManager+FolderSize.swift */,
 				E1CFC1561E0AC8FF001DF9E9 /* Pattern.swift */,
 				E1AB5A061E0BF17500574B4E /* Array.swift */,
+				E678FC141C76241000F55F55 /* WPStyleGuide+ApplicationStyles.swift */,
+				17AD36D41D36C1A60044B10D /* WPStyleGuide+Search.swift */,
+				82C00C181EB9D18D003BDE4A /* WPStyleGuide+DynamicType.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -6722,6 +6725,7 @@
 				5D6C4B111B604190005E3C43 /* NSAttributedString+RichTextView.swift in Sources */,
 				E131F5351C2930FC00D2D975 /* String+Helpers.swift in Sources */,
 				B50421E91B68170F008EEA82 /* NoteUndoOverlayView.swift in Sources */,
+				82C00C191EB9D18D003BDE4A /* WPStyleGuide+DynamicType.swift in Sources */,
 				B5D889411BEBE30A007C4684 /* BlogSettings.swift in Sources */,
 				5DF7F7781B223916003A05C8 /* PostToPost30To31.m in Sources */,
 				5D8CBC471A6F47880081F4AE /* EditImageDetailsViewController.m in Sources */,
