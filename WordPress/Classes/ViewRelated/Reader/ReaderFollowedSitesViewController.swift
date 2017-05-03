@@ -300,7 +300,7 @@ extension ReaderFollowedSitesViewController : WPTableViewHandlerDelegate {
         cell.imageView?.setImageWithSiteIcon(site.siteBlavatar, placeholderImage: UIImage(named: "blavatar-default"))
 
 
-        WPStyleGuide.configureTableViewSmallSubtitleCell(cell)
+        WPStyleGuide.configureDefaultTableViewCell(cell)
         cell.layoutSubviews()
     }
 

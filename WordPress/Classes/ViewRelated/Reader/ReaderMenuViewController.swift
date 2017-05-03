@@ -166,6 +166,7 @@ import WordPressShared
         tableView.register(WPTableViewCell.self, forCellReuseIdentifier: actionCellIdentifier)
 
         WPStyleGuide.configureColors(for: view, andTableView: tableView)
+        WPStyleGuide.configureAutomaticHeightRowsForTableView(tableView)
     }
 
 
@@ -490,7 +491,7 @@ import WordPressShared
             return
         }
 
-        WPStyleGuide.configureTableViewCell(cell)
+        WPStyleGuide.configureDefaultTableViewCell(cell)
         cell.accessoryView = nil
         cell.accessoryType = (splitViewControllerIsHorizontallyCompact) ? .disclosureIndicator : .none
         cell.selectionStyle = .default
@@ -504,7 +505,7 @@ import WordPressShared
             return
         }
 
-        WPStyleGuide.configureTableViewActionCell(cell)
+        WPStyleGuide.configureDefaultTableViewActionCell(cell)
 
         if cell.accessoryView == nil {
             let image = Gridicon.iconOfType(.plus)

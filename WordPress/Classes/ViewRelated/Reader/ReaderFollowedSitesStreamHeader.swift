@@ -27,7 +27,7 @@ import WordPressShared.WPStyleGuide
         borderedView.layer.borderColor = WPStyleGuide.readerCardCellBorderColor().cgColor
         borderedView.layer.borderWidth = 1.0
 
-        titleLabel.font = WPStyleGuide.tableviewTextFont()
+        titleLabel.font = WPStyleGuide.tableViewDefaultTextFont()
         titleLabel.textColor = WPStyleGuide.darkGrey()
         titleLabel.text = NSLocalizedString("Manage", comment: "Button title. Tapping lets the user manage the sites they follow.")
 
